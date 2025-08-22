@@ -1,0 +1,33 @@
+{
+  "name": "bear-mcp-server",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for Bear notes app",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "bear",
+    "notes",
+    "productivity",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
