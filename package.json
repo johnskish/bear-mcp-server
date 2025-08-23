@@ -23,7 +23,8 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.17.4"
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
